@@ -50,3 +50,19 @@ Example
  |label       |String  | HTML string to be set as the *file uploading tab* label.                                   |
  |limitSize   |String  | Set a total file size limit value as *size* + *Mb/M/Kb/K/B*. <br/> **false** for no limit  |
  |limitAlert  |Function| Callback function to be called when a over limit size alert should be fired.               |
+
+ Methods
+ ------
+ | Name            | Description                                                                                       |
+ |-----------------|---------------------------------------------------------------------------------------------------|
+ |value()          | Get the *InputUploader* instance text and files value as an object.                               |
+ |clear()          | Clear the *InputUploader* instance from files and text.                                           |
+ |simplfy(Bool)    | Toggle the *InputUploader* into/from being a "simple" reseted *textarea* to normal                |
+ |preview()        | Re-render the selected file gallery files tumbnails.                                              |
+ |addPreview(File) | Add the passed file object thumbnail to the preview gallery. <br/> **The File objects need to include a unique *fileId* property**                                                                                                    |
+ |uploadToggle()   | Toggle the upload tab (expand/shrink).                                                            |
+ |uploadShrink()   | Shrink the upload tab.                                                                            |
+ |addFile()        | Add a new file to the files stack from the *input* element.                                       |
+ |removeFile(Int)  | Remove the selected file from the files stack, by the sent unqiue Id.                             |
+ |onResizeEnd(Func)| Fire the given callback function as soon as all resizings ends.                                   |
+ |isResizing()     | Returns *true* there's a image resizing in progress.                                              |
