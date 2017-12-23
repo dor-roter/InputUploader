@@ -1,0 +1,6 @@
+[submodule "scrollbar"]
+	path = scrollbar
+	url = https://github.com/dor-roter/Scrollbar.git
+[submodule "ImageResizer"]
+	path = ImageResizer
+	url = https://github.com/dor-roter/ImageResizer.git
