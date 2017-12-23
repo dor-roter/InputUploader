@@ -59,7 +59,7 @@ Example
  |clear()          | Clear the *InputUploader* instance from files and text.                                           |
  |simplfy(Bool)    | Toggle the *InputUploader* into/from being a "simple" reseted *textarea* to normal                |
  |preview()        | Re-render the selected file gallery files tumbnails.                                              |
- |addPreview(File) | Add the passed file object thumbnail to the preview gallery. <br/> **The File objects need to include a unique *fileId* property**                                                                                                    |
+ |addPreview(File) | Add the passed file object thumbnail to the preview gallery. <br/> **The File object need to include a unique *fileId* property**                                                                                                    |
  |uploadToggle()   | Toggle the upload tab (expand/shrink).                                                            |
  |uploadShrink()   | Shrink the upload tab.                                                                            |
  |addFile()        | Add a new file to the files stack from the *input* element.                                       |
