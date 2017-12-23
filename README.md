@@ -1,3 +1,5 @@
+![example](https://user-images.githubusercontent.com/34774590/34322285-b211df28-e82b-11e7-9ba8-c418740f09ed.jpg)
+
 # InputUploader
 
 Use
